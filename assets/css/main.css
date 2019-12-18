@@ -3729,8 +3729,8 @@ input, select, textarea {
 					-webkit-transition-delay: 4.25s;
 					-ms-transition-delay: 4.25s;
 					transition-delay: 4.25s;
-				}
-
+        }
+        
 		#sidebar nav a {
 			-moz-transition: color 0.2s ease;
 			-webkit-transition: color 0.2s ease;
@@ -3906,4 +3906,10 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
-		}
+    }
+    
+    .selfie {
+      display: flex;
+      justify-content: space-around;
+      text-align:center;
+    }
