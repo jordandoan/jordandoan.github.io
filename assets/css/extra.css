@@ -10,3 +10,7 @@
 .skills-container > ul {
   margin: 1%;
 }
+
+.button-2 {
+  background-color:rgba(255,255,255,0.4);
+}
