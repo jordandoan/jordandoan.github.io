@@ -21,7 +21,7 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">About Me</a></li>
+							<li><a href="#one">Summary</a></li>
 							<li><a href="#two">Projects</a></li>
 							<li><a href="#three">Contact Me</a></li>
 						</ul>
@@ -35,17 +35,19 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Jordan Doan      <img src="images/self2.jpg"/ alt="A picture of Jordan"></h1>        
-              <p class="desc-background">
+              <!-- <img src="images/self2.jpg"/ alt="A picture of Jordan"> -->
+							<h1 class="center">Jordan Doan </h1>        
+              <p class="desc-background center">
+                Seattle, WA.
                 Full Stack Web Developer.
                 Student in Meteorology.
                 Lover of mechanical keyboards.
-                <p class="desc-background">
-                  I am a software developer who loves coming up with multiple solutions to complex problems to improve my thinking.
+                <p class="desc-background center">
+                  I am a software developer who loves designing multiple solutions to complex problems.
                 </p>
               </p>
-							<ul class="actions">
-								<li><a href="/about.html" class="button scrolly button-2">Learn more</a></li>
+							<ul class="actions center center-button">
+								<li class="center center-button"><a href="/about.html" target="_blank" class="button scrolly button-2">About Me</a></li>
 							</ul>
 						</div>
 					</section>
@@ -58,10 +60,10 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Education and Experience</h2>
-									<p>Lambda School - <strong>Full Stack Web Development</strong> <em>2019-2020</em><br>University of Washington - <strong>Atmospheric Sciences (BS)</strong> <em>2014-2019</em></p>
-								<p>Big 5 Sporting Goods - <strong>Sales Associate</strong> <em>July 2018 - Present</em><br>UW Interlibrary Loan - <strong>Student Assistant</strong> <em>Sep. 2018 - June 2019</em> <br>MOD Pizza - <strong>Squad Member</strong> <em>July 2015 - Apr. 2018</em></p>
+									<p>Lambda School - <strong>Full Stack Web Development</strong> <em>2019-2020</em><br>University of Washington - <strong>Atmospheric Sciences (BS)</strong> <em>2014-2019</em><br>University of Washington - <strong>Applied Mathematics (Minor)</strong> <em>2014-2019</em></p>
+								<p>Big 5 Sporting Goods - <strong>Sales Associate</strong> <em>July 2018 - March 2020</em><br>UW Interlibrary Loan - <strong>Student Assistant</strong> <em>Sep. 2018 - June 2019</em> <br>MOD Pizza - <strong>Squad Member</strong> <em>July 2015 - Apr. 2018</em></p>
 									<ul class="actions">
-										<li><a href="about.html" class="button">Learn more</a></li>
+										<li><a href="about.html" class="button" target="_blank">About Me</a></li>
 									</ul>
 								</div>
 							</div>
@@ -76,33 +78,38 @@
                       <li>HTML/CSS/JavaScript</li>
                       <li>LESS and SASS</li>
                       <li>React</li>
-                      <li>Redux</li>
+                      <li>Redux / ContextAPI </li>
                       <li>ApolloClient</li>
                       <li>MATLAB</li>
                     </ul>
                     <ul>
                       <li>Node/Express</li>
-                      <li>MySQL</li>
+                      <li>PostgreSQL</li>
                       <li>RESTful APIs</li>
-                      <li>GraphQL with Prisma and Yoga</li>
+                      <li>GraphQL / Prisma / Yoga</li>
                       <li>Java</li>
                       <li>Python</li>
                     </ul>
                   </div>
 									<ul class="actions">
-										<li><a href="about.html" class="button">Learn more</a></li>
+										<li><a href="about.html" class="button" target="_blank">About Me</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/open.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/open.jpg" alt="" data-position="25% 25%" target="_blank"/></a>
 							<div class="content">
 								<div class="inner">
                   <h2>Interests</h2>
-									<p>Retro video games<br>Singing Karaoke <br>Mechanical Keyboards
+                  <ul>
+                    <li>Retro video games</li>
+                    <li>Singing karaoke</li>
+                    <li>Craft beer (Fremont Brewing Company!)</li>
+                    <li>Mechanical Keyboards - Custom and Vintage</li>
+                  </ul>
 									<ul class="actions">
-										<li><a href="about.html" class="button">Learn more</a></li>
+										<li><a href="about.html" class="button" target="_blank">About Me</a></li>
 									</ul>
 								</div>
 							</div>
@@ -133,7 +140,7 @@
 									<span class="icon solid major fa-link"></span>
                   <h3><a href="https://createadventure.netlify.com/" target="_blank">Create Your Own Adventure</a></h3>
                   <p>Create your own stories with multiple decisions to choose from, invite other users to read your stories or help add on to it! Utilizes D3 Graphs to visualize the decision tree when editing a story. Built with React, Express and PostgreSQL. </p>
-                  <p>Won award for 'Best Overall' at Lambda School's Winter Hackathon 2020!</p>
+                  <p>Awarded for 'Best Overall' at Lambda School's Winter Hackathon 2020 over 30 projects!</p>
                   <p><a href="https://createadventure.netlify.com/" target="_blank">Deployment</a> / <a href="https://github.com/Lambda-Hackathon-2020-Git-Adventure" target="_blank">GitHub</a> </p>
                   <h3>Contributions</h3>
                   <ul>
@@ -153,7 +160,19 @@
                     <li>Coordinated schema design for rooms, player settings, and items</li>
                     <li>Used Pusher library to allow real time communication between players</li>
                   </ul>
-								</section>
+                </section>
+                <section>
+									<span class="icon solid major fa-asterisk"></span>
+                  <h3><a href="https://silent-auction-jd.netlify.com/" target="_blank">Silent Auction</a></h3>
+                  <p>An app where people can auction items for sale or bid on items and win. Designed with Material UI components for a pleasant experience. Built with React, ContextAPI, Express and PostgreSQL. </p>
+                  <p><a href="https://silent-auction-jd.netlify.com/" target="_blank">Deployment</a> / <a href="https://github.com/jordandoan/silent-auction" target="_blank">Front-end Repo</a> / <a href="https://github.com/Silent-Auction/Backend" target="_blank">Back-end Repo</a></p>
+                  <h3>Contributions</h3>
+                  <ul>
+                    <li>Designed both front-end and back-end services</li>
+                    <li>Created middleware to prevent users from making invalid bids</li>
+                    <li>Uses date-fns to determine status of auction</li>
+                  </ul>
+                </section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
 									<h3><a href="https://front-end.trip-splitter.now.sh" target="_blank">Trip Splitter</a></h3>
@@ -188,6 +207,9 @@
                     <li>Tested back-end with Jest and Supertest, using mock data</li>
                     <li>Used Ant Design library for consistent UI</li>
                   </ul>
+                </section>
+
+                <section>
 								</section>
 							</div>
 							<!-- <ul class="actions">
@@ -240,7 +262,7 @@
 												<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 												<li><a href="https://github.com/jordandoan" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 												<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
-												<li><a href="https://www.linkedin.com/in/jordan-doan-790694156/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.linkedin.com/in/jordan-doan/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
