@@ -2,6 +2,30 @@
   display:flex;
 }
 
+.desc-background { 
+  background-color:rgba(0,0,0,0.8);
+  padding: 2%;
+  width: 80%;
+}
+
 .skills-container > ul {
   margin: 1%;
+}
+
+.button-2 {
+  background-color:rgba(0,0,0,0.8);
+}
+
+h1.center {
+  background-color:rgba(0,0,0,0.8);
+  width: 80%;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.center-button > * {
+  margin: auto;
 }
