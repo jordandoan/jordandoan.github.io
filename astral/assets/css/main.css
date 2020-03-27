@@ -2232,17 +2232,20 @@ input, select, textarea {
 			transition: opacity .25s ease-in-out;
     }
     
-    #projects a {
+    #about a, #projects a {
       outline: 0;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
 			-ms-transition: opacity .25s ease-in-out;
 			transition: opacity .25s ease-in-out;
     }
-
-    #projects a:hover {
-      opacity: 0.77;
+    #about a:hover {
+      opacity: 0.65;
     }
+    #projects a:hover {
+      opacity: 0.65;
+    }
+
     .contact-info a:hover {
       opacity: 1;
     }
