@@ -2188,4 +2188,16 @@ input, select, textarea {
 				margin-left: 0.5em;
 			}
 
-		}
+    }
+    
+    #projects section header {
+      text-align: center;
+    }
+
+    #projects section header h4 {
+      font-size: 1rem;
+    }
+
+    a:visited {
+      color:black;
+    }

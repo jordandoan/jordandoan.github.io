@@ -3913,3 +3913,8 @@ input, select, textarea {
       justify-content: space-around;
       text-align:center;
     }
+    
+    #projects section header {
+      border: 1px solid black;
+      text-align: center;
+    }
